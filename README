@@ -1,23 +1,20 @@
 Chess Game Manager
 ==================
 
-A Java-based chess game framework that models the chessboard and various chess pieces, handling their interactions, moves, and game logic. This repository is intended as a starting point for building chess applications or for educational purposes.
+A Java-based chess game.
 
 Table of Contents
 -----------------
 1. Overview
 2. Class Structure
-3. Getting Started
-   - Prerequisites
-   - Installation
-   - Running the Code
-4. Contributing
-5. License
+
 
 Overview
 --------
 
-This project provides an object-oriented approach to implementing chess game functionality in Java. The design includes separate classes for each type of chess piece, such as `Pawn`, `King`, `Queen`, and others, inheriting from a base `Piece` class. A `ChessBoard` class manages the board state, while a `Manager` class oversees game operations, such as setting up the board, handling turns, and enforcing rules.
+This project provides an object-oriented approach to implementing chess game functionality in Java. 
+The design includes separate classes for each type of chess piece, such as `Pawn`, `King`, `Queen`, and others, inheriting from a base `Piece` class. 
+A `ChessBoard` class manages the board state, while a `Manager` class oversees game operations, such as setting up the board, handling turns, and enforcing rules.
 
 Class Structure
 ---------------
@@ -38,11 +35,3 @@ The class structure is as follows:
 
 - **Tester**: Contains test cases for validating the functionality of individual classes and overall game behavior.
 
-Getting Started
----------------
-
-### Prerequisites
-- Java Development Kit (JDK) 8 or higher
-
-### Installation
-1. Clone this repository:
